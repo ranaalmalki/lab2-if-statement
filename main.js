@@ -37,3 +37,35 @@ var eatsAnimals = true;
  */
 ( eatsPlants && eatsAnimals ==true)? console.log("omnivore"):console.log(undefined);
 
+//2-
+
+
+var musicians = 4;
+// var musicians = 1;
+// var musicians = 2;
+// var musicians = 3;
+// var musicians = 4;
+
+if(musicians >4){
+    console.log(" this is a large group")
+
+}else if(musicians == 1){
+    console.log("solo")
+
+
+}else if(musicians == 2){
+    console.log("duet")
+
+
+}else if(musicians == 3){
+    console.log("trio")
+
+
+}else if(musicians == 4){
+    console.log("quartet")
+
+
+}else{
+    console.log(" not a group")
+
+}
