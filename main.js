@@ -47,13 +47,13 @@ var suspect = "Mr. Parkes";
 var weapon = "";
 var solved = false;
 
-if(room==="billiards room" && suspect==="Mr. Parkes"){
+if(room==="billiards room" && suspect==="Mrs. Sparr"){
     weapon="pool stick"; solved=true
-}else if(room==="dining room" && suspect==="Ms. Van Cleve"){
+}else if(room==="dining room" && suspect==="Mr. Parkes"){
     weapon="knife"; solved=true
-}else if(room==="ballroom" && suspect==="Mrs. Sparr"){
+}else if(room==="ballroom" && suspect==="Mr. Kalehoff"){
     weapon=" poison"; solved=true
-}else if(room==="gallery" && suspect==="Mr. Kalehoff"){
+}else if(room==="gallery" && suspect==="Ms. Van Cleve"){
     weapon=" trophy"; solved=true
 }
 
