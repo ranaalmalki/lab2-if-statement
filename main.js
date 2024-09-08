@@ -69,3 +69,72 @@ if(musicians >4){
     console.log(" not a group")
 
 }
+
+//3-Murder mystery
+
+//4-Checking Your Balance
+/*
+ * REQUIREMENTS
+* 1. Your code should have the variables `balance`, `checkBalance`, `isActive`
+* 2. Your code should include an `if...else` conditional statement
+* 3. Your code should produce the expected output
+* 4. Your code should not be empty
+* 5. BE CAREFUL ABOUT THE PUNCTUATION AND THE EXACT WORDS TO BE PRINTED. 
+*/
+
+// change the values of `balance`, `checkBalance`, and `isActive` to test your code
+var balance = -325;
+var checkBalance = true;
+var isActive = true;
+
+// Start only if checkBalance === true
+
+if(checkBalance === true && isActive){
+
+    
+}else{
+
+}
+
+
+
+
+/*
+* REQUIREMENTS
+* 1. Your code should have the variables `flavor`, `vessel`, and `toppings`
+* 2. Your code should have an `if` statement
+* 3. Your code should use logical expressions
+* 4. Your code should work with 
+*  - `flavor=vanilla`, `vessel=cone`, and `toppings=sprinkles`
+*  - `flavor=vanilla`, `vessel=cone`, and `toppings=peanuts`
+*  - `flavor=vanilla`, `vessel=bowl`, and `toppings=sprinkles`
+*  - `flavor=vanilla`, `vessel=bowl`, and `toppings=peanuts`
+* 
+*  - `flavor=chocolate`, `vessel=cone`, and `toppings=sprinkles`
+*  - `flavor=chocolate`, `vessel=cone`, and `toppings=peanuts`
+*  - `flavor=chocolate`, `vessel=bowl`, and `toppings=sprinkles`
+*  - `flavor=chocolate`, `vessel=bowl`, and `toppings=peanuts`
+*   
+* 5. Your code should NOT log (print) anything when 
+*  - the flavor is something other than "vanilla" or "chocolate"
+*  - the vessel is something other than "cone" or "bowl"
+*  - the toppings is something other than "sprinkles" or "peanuts"
+* 
+* 6. Your code should not be empty
+*/
+
+// change the values of `flavor`, `vessel`, and `toppings` to test your code
+//6-/*
+let flavor = "chocolate";
+let vessel="cone"
+let toppings = "peanuts";
+
+if(flavor=="vanilla" ||"chocolate"){
+if(vessel=="cone" || "bowl")
+
+if(toppings=="sprinkles" || "peanuts")
+    console.log( `I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}.`)
+}
+else{
+    console.log("we dont have this flaevor")
+}
