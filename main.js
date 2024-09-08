@@ -51,8 +51,10 @@ if(room==="billiards room" && suspect==="Mr. Parkes"){
     weapon="pool stick"; solved=true
 }else if(room==="dining room" && suspect==="Ms. Van Cleve"){
     weapon="knife"; solved=true
-}else if(room==="ballroom" && suspect==="Ms. Van Cleve"){
+}else if(room==="ballroom" && suspect==="Mrs. Sparr"){
     weapon=" poison"; solved=true
+}else if(room==="gallery" && suspect==="Mr. Kalehoff"){
+    weapon=" trophy"; solved=true
 }
 
 
