@@ -1,41 +1,10 @@
 //1-Conditional
 
 
-/*
- * Navigating the Food Chain
- *
- * Use a series of ternary operator to set the category to one of the following:
- *   - "herbivore" if an animal eats plants
- *   - "carnivore" if an animal eats animals
- *   - "omnivore" if an animal eats plants and animals
- *   - undefined if an animal doesn't eat plants or animals
- *
- * Notes
- *   - use the variables `eatsPlants` and `eatsAnimals` in your ternary expressions
- *   - `if` statements aren't allowed ;-)
- */
-
-/*
- * REQUIREMENTS
- * - Your code should have the variables `eatsPlants`, `eatsAnimals`
- * - Your code should include ternary statements. Do not use if....else statement. 
- * - Your code should produce the expected output
- * - Your code should not be empty
- * - BE CAREFUL ABOUT THE PUNCTUATION AND THE EXACT WORDS TO BE PRINTED.
- */
- 
-// change the values of `eatsPlants` and `eatsAnimals` to test your code
 var eatsPlants = false;
 var eatsAnimals = true;
+( eatsPlants && eatsAnimals)? console.log("omnivore"):(eatsAnimals)?console.log("carnivore") :(eatsPlants)?console.log("herbivore"):console.log(undefined)
 
-/*
- * Test your code agaist the followig possible input/output combinations of (`eatsPlants`, `eatsAnimals`, expected output):
- * - (true, true, omnivore)
- * - (false, true, carnivore)
- * - (true, false, herbivore)
- * - (false, false, undefined)
- */
-( eatsPlants && eatsAnimals ==true)? console.log("omnivore"):console.log(undefined);
 
 //2-
 
@@ -72,27 +41,60 @@ if(musicians >4){
 
 //3-Murder mystery
 
-//4-Checking Your Balance
+
 /*
  * REQUIREMENTS
-* 1. Your code should have the variables `balance`, `checkBalance`, `isActive`
-* 2. Your code should include an `if...else` conditional statement
-* 3. Your code should produce the expected output
-* 4. Your code should not be empty
-* 5. BE CAREFUL ABOUT THE PUNCTUATION AND THE EXACT WORDS TO BE PRINTED. 
-*/
+ * 1. Your code should have variables - `room`, `suspect`, `weapon`, and `solved`
+ * 2. Your code should include a conditional statement
+ * 3. The variable `suspect` should use one of the provided values
+ * 4. The variable `weapon` should be based on the `room`
+ * 5. Your code should produce the expected output: __________ did it in the __________ with the __________!
+ * Example: Mr. Parkes did it in the dining room with the knife!
+ *
+ * 6. For unmatching combination of the suspect and the room, print nothing on the console
+ */
 
-// change the values of `balance`, `checkBalance`, and `isActive` to test your code
+/* ****************************************** */
+/* TESTING LOGIC */ 
+// Change the value of `room` and `suspect` to test your code
+
+// A room can be either of - dining room, gallery, ballroom, or billiards room
+var room = "billiards room";
+
+// A suspect can be either of - Mr. Parkes, Ms. Van Cleve, Mrs. Sparr, or Mr. Kalehoff
+// Test your code by giving matching as well as unmatching names of the suspect
+var suspect = "Mr. Parkes"; 
+
+/* ****************************************** */
+
+/* IMPLEMENTATION LOGIC*/
+
+// Initial values
+var weapon = "";
+var solved = false;
+
+/*
+* To help solve this mystery, write a combination of conditional statements that:
+* 1. sets the value of weapon based on the room and
+* 2. sets the value of solved to true if the value of room matches the suspect's room
+*/
+if (solved) {
+    console.log();
+}
+
+//4-Checking Your Balance
+
 var balance = -325;
 var checkBalance = true;
 var isActive = true;
 
 // Start only if checkBalance === true
 
-if(checkBalance === true && isActive){
-
+if(checkBalance && isActive){
+console.log(`your balance is${balance}`)
     
 }else{
+console.log("your acount not active");
 
 }
 
